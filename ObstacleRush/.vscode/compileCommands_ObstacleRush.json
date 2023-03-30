@@ -1,0 +1,42 @@
+[
+	{
+		"file": "G:\\Unreal\\ObstacleRush\\ObstacleRush\\Source\\ObstacleRush\\MovingPlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Unreal\\ObstacleRush\\ObstacleRush\\.vscode\\compileCommands_ObstacleRush\\ObstacleRush.249.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\ObstacleRush\\ObstacleRush\\Source\\ObstacleRush\\MovingPlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Unreal\\ObstacleRush\\ObstacleRush\\.vscode\\compileCommands_ObstacleRush\\ObstacleRush.249.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\ObstacleRush\\ObstacleRush\\Source\\ObstacleRush\\ObstacleRush.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Unreal\\ObstacleRush\\ObstacleRush\\.vscode\\compileCommands_ObstacleRush\\ObstacleRush.249.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\ObstacleRush\\ObstacleRush\\Source\\ObstacleRush\\ObstacleRush.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Unreal\\ObstacleRush\\ObstacleRush\\.vscode\\compileCommands_ObstacleRush\\ObstacleRush.249.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\ObstacleRush\\ObstacleRush\\Source\\ObstacleRush\\ObstacleRush.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+			"@G:\\Unreal\\ObstacleRush\\ObstacleRush\\.vscode\\compileCommands_ObstacleRush\\ObstacleRush.249.rsp"
+		],
+		"directory": "D:\\Unreal\\UE_5.1\\Engine\\Source"
+	}
+]
