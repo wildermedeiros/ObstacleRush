@@ -28,11 +28,9 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 	FVector CurrentLocation = GetActorLocation();
 	CurrentLocation += PlatformVelocity * DeltaTime;
 	SetActorLocation(CurrentLocation);
-	TraveledDistance = FVector::Distance(StartLocation, CurrentLocation);
 
-	if (TraveledDistance > MoveDistance)
+	if (ShouldPlatformReturn())
 	{
-		UE_LOG(LogTemp, Display, TEXT("Yolo"));
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation += MoveDirection * MoveDistance;
 		SetActorLocation(StartLocation);
@@ -43,4 +41,14 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 void AMovingPlatform::RotatePlatform()
 {
 	UE_LOG(LogTemp, Display, TEXT("%s Rotating!"), *GetName());
+}
+
+bool AMovingPlatform::ShouldPlatformReturn()
+{
+	return GetDistanceMoved() > MoveDistance;
+}
+
+float AMovingPlatform::GetDistanceMoved()
+{
+	return FVector::Distance(StartLocation, GetActorLocation());
 }
